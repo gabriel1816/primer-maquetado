@@ -1,0 +1,184 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+header {
+    background-color: rgb(15, 0, 149);
+    padding: 1em 0;
+}
+header h1 {
+    font-size: 2.5 em;
+    font-style: italic;
+    display: inline-flex;
+    position: relative;
+    bottom: 5px;
+}
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(4, 0, 37);
+    
+
+}
+nav ul li{
+    display: inline-flex;
+    width: 20%;
+    margin-top: 0;
+    padding: 0;
+}
+nav ul li a {
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    padding: 0.2em 0.4em;
+}
+nav ul li:hover {
+    background-color: rgb(0, 77, 149);
+}
+footer {
+    background-color: rgb(200, 200, 200);
+    clear: both;
+    color: rgb(104, 104, 104);
+    padding: 2em 0;
+    margin-top: 1em;
+    text-align: center;
+}
+nav ul li.activo {
+    background-color: rgb(0, 77, 149);
+}
+.holder {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.fondoheader {
+    background-color: rgb(15, 0, 149);
+    width: 100%;
+    
+}
+.centro {
+    margin-top: 10px;
+    background-color: rgb(74, 77, 255); 
+    padding: 20px; 
+    color: black;
+    border-radius: 5px 5px 5px 5px ;
+}
+
+/* inicio de servicios */
+.subti {
+    background-color: rgb(58, 58, 255);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+.noti {
+    background-color: white;
+}
+.bajo {
+    color: rgb(12, 0, 82);
+    font-family: 'Anton', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+}
+.bajo:hover {
+    color: mediumaquamarine;
+    cursor: pointer; 
+}
+.cine {
+    height: 40px;
+    width: 60px;
+    background-color: white;
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 43, 161);
+    font-weight: 900;
+    border-bottom: 3px solid grey;
+}
+.musica {
+    height: 40px;
+    width: 60px;
+    background-color: white;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 43, 161);
+    font-weight: 900;
+    border-bottom: 3px solid grey;
+}
+.texto {
+    font-size: 15px;
+    text-align: center;
+    padding: 1px;
+    border-bottom: 1px solid grey;
+}
+.centrar {
+    margin-left: 50px;
+}
+
+/* final de servicios */
+
+/* Principio nosotros */
+.principal {
+    background-color: white;
+    color: black;
+    border: rgb(74, 77, 255) 20px solid;
+    padding: 20px;
+}
+.historia {
+    color: rgb(74, 77, 255);
+    margin-left: 20px;
+}
+.equipo {
+overflow: hidden;
+margin-left: 80px;
+}
+.persona {
+    width: 16%;
+    min-height: 500px;
+    border: 1px solid grey;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.persona img {
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 0.8em 0 1em;
+    max-width: 70%;
+}
+.persona h5, .persona h6 {
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+    color: #2e64a1;
+}
+.persona h5 {
+    font-size: 0.9em;
+}
+.persona h6 {
+    font-style: italic;
+    font-size: 0.8em;
+
+}
+.persona p {
+    font-size: 0.7em;
+    color: #444;
+    margin: 0 1em 1em;
+}
+.persona :first-child {
+    margin-left: 0;
+}
+/* Final nosotros*/
